@@ -1,78 +1,66 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Dialme API",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#1E40AF",
+    "light": "#1E40AF",
+    "dark": "#1E40AF",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#1E40AF",
+      "to": "#1E40AF"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:hi@dialme.at"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://dashboard.dialme.at"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
   "navigation": [
-    {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
-    },
-    {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
-    },
     {
       "group": "API Documentation",
       "pages": ["api-reference/introduction"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "User Interviews",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/interviews/get-all",
+        "api-reference/interviews/create-one"
+      ]
+    },
+    {
+      "group": "Interviewers",
+      "pages": [
+        "api-reference/interviewers/get-all",
+        "api-reference/interviewers/get-one"
+      ]
+    },
+    {
+      "group": "Languages",
+      "pages": [
+        "api-reference/languages/get-all",
+        "api-reference/languages/get-one"
+      ]
+    },
+    {
+      "group": "Interview Transcripts",
+      "pages": [
+        "api-reference/transcripts/get-all",
+        "api-reference/transcripts/get-one"
       ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/girriPal",
+    "github": "https://github.com/gpalrepo",
+    "linkedin": "https://www.linkedin.com/company/dialme-at"
   }
 }
